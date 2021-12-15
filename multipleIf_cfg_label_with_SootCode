@@ -1,0 +1,27 @@
+digraph G {
+	bddacehded[label="r1 := @this: cut.LogicStructure"]
+	bbfaafiife[label="i0 := @parameter0: int"]
+	jbedhejgj[label="$i1 = i0 % 15"]
+	bffcdebjfh[label="if $i1 != 0 goto $i2 = i0 % 5"]
+	bdcdedejih[label="return FizzBuzz"]
+	biifjccjbg[label="$i2 = i0 % 5"]
+	cadhhgefgi[label="if $i2 != 0 goto $i3 = i0 % 3"]
+	gafafcdfh[label="return Buzz"]
+	baffhjjci[label="$i3 = i0 % 3"]
+	ebijfihbd[label="if $i3 != 0 goto $r0 = staticinvoke <Integer: String toString(int)>(i0)"]
+	bdecdegaji[label="return Fizz"]
+	bdfideddbg[label="$r0 = staticinvoke <Integer: String toString(int)>(i0)"]
+	biceidhaej[label="return $r0"]
+	bddacehded->bbfaafiife;
+	bbfaafiife->jbedhejgj;
+	jbedhejgj->bffcdebjfh;
+	bffcdebjfh->bdcdedejih;
+	bffcdebjfh->biifjccjbg;
+	biifjccjbg->cadhhgefgi;
+	cadhhgefgi->gafafcdfh;
+	cadhhgefgi->baffhjjci;
+	baffhjjci->ebijfihbd;
+	ebijfihbd->bdecdegaji;
+	ebijfihbd->bdfideddbg;
+	bdfideddbg->biceidhaej;
+}

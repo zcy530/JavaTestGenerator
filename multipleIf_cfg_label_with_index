@@ -1,0 +1,27 @@
+digraph G {
+	bddacehded[label="1"]
+	bbfaafiife[label="2"]
+	jbedhejgj[label="3"]
+	bffcdebjfh[label="4"]
+	bdcdedejih[label="5"]
+	biifjccjbg[label="6"]
+	cadhhgefgi[label="7"]
+	gafafcdfh[label="8"]
+	baffhjjci[label="9"]
+	ebijfihbd[label="10"]
+	bdecdegaji[label="11"]
+	bdfideddbg[label="12"]
+	biceidhaej[label="13"]
+	bddacehded->bbfaafiife;
+	bbfaafiife->jbedhejgj;
+	jbedhejgj->bffcdebjfh;
+	bffcdebjfh->bdcdedejih;
+	bffcdebjfh->biifjccjbg;
+	biifjccjbg->cadhhgefgi;
+	cadhhgefgi->gafafcdfh;
+	cadhhgefgi->baffhjjci;
+	baffhjjci->ebijfihbd;
+	ebijfihbd->bdecdegaji;
+	ebijfihbd->bdfideddbg;
+	bdfideddbg->biceidhaej;
+}

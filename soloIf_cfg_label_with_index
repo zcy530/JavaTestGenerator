@@ -1,0 +1,11 @@
+digraph G {
+	bihiebdhbe[label="1"]
+	hgjbdcbeh[label="2"]
+	bhddacchfc[label="3"]
+	hfdgdbdjd[label="4"]
+	bjbebaihai[label="5"]
+	bihiebdhbe->hgjbdcbeh;
+	hgjbdcbeh->bhddacchfc;
+	bhddacchfc->hfdgdbdjd;
+	bhddacchfc->bjbebaihai;
+}

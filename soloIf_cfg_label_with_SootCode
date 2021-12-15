@@ -1,0 +1,11 @@
+digraph G {
+	bihiebdhbe[label="r0 := @this: cut.LogicStructure"]
+	hgjbdcbeh[label="i0 := @parameter0: int"]
+	bhddacchfc[label="if i0 <= 0 goto return 0"]
+	hfdgdbdjd[label="return 1"]
+	bjbebaihai[label="return 0"]
+	bihiebdhbe->hgjbdcbeh;
+	hgjbdcbeh->bhddacchfc;
+	bhddacchfc->hfdgdbdjd;
+	bhddacchfc->bjbebaihai;
+}
